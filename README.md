@@ -5,4 +5,5 @@ Day1: Réflexion sur le thème de l'association, je décide de choisir de créer
 
 Day2: Brouillon du squelette html des pages de mon site, hors Git, pour tester les éléments et leur mise en page générale.
 
-Day3: Nettoyage du brouillon, réflexion papier sur le futur style du site. Initialisation du Git.
+Day3: Nettoyage du brouillon, réflexion papier sur le futur style du site. Initialisation du Git. Ajouts d'élements sur les pages contacts et events, css du style démarré. Ajustements des liens entre les pages.
+

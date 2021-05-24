@@ -24,7 +24,7 @@ main    {
     justify-content: center;
     align-content: center;
 }
-section {
+.sectionaccueil {
     border: solid 2px blue;/*à enlever*/
     margin: 5px;
     display: flex;
@@ -73,4 +73,59 @@ footer > div > .list > li {
 }
 .list {
     list-style: none;
-} 
+}
+
+/*Spécifiques page Events*/
+.evenements  {
+    max-width: 25%;
+
+}
+.allevents   {
+    border: solid 1px teal;
+    /*en attente du live grid layout*/
+
+}
+
+/*Spécifique page contact et dons*/
+.contactetdons {
+    border: solid 1px teal;/*à enlever*/
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+form {
+    width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 2%;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 10px;
+    margin: 10px;
+}
+form label {
+    display: block;
+    margin-bottom: 10px;
+    border: solid 1px crimson;/*à enlever*/
+}
+legend {
+    font-style: italic;
+    font-size: 2em;
+    padding: 5px;
+    border: solid 1px palevioletred;/*à enlever*/
+}
+form input, form select, form textarea {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    border: solid 1px rebeccapurple;/*à enlever*/
+}
+.dons {
+    width: 60%;
+    text-align: center;
+    border:  1px solid forestgreen;/*à enlever*/
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2%;
+}
