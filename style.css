@@ -1,0 +1,76 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+header {
+    border: solid 2px black;/*à enlever*/
+    /*margin: 5px;*/
+    
+}
+nav {
+    border: solid 2px  green;/*à enlever*/
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    border: solid 2px yellow;/*à enlever*/
+}
+
+main    {
+    border: solid  2px black;/*à enlever*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+section {
+    border: solid 2px blue;/*à enlever*/
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+article {
+    border: solid 2px orange;/*à enlever*/
+    margin: 5px;
+    text-align: center ;
+    max-width: 90%;
+}
+.carte {
+    margin :10px;
+}
+.carte > a {
+    margin: 10px;
+}
+.carte > img {
+    border-radius: 50%;
+    margin: 10px;
+}
+.titres {
+    font-size: 2em;
+    font-style: italic;
+}
+
+footer {
+    border: solid 2px black;/*à enlever*/
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+footer > div {
+    border: solid 1px orangered;/*à enlever*/
+}
+footer > div > .list > li {
+    display: inline;
+    border: solid 1px teal;/*à enlever*/
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-between;
+    align-content: center;
+}
+.list {
+    list-style: none;
+} 
