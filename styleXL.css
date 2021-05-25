@@ -1,0 +1,139 @@
+/*Spécifique écrans XL*/
+@media screen and (min-width : 992px) {
+    .zoom {
+        transition: transform 0.5s ease;
+    }
+    .zoom:hover,
+    .zoom:focus {
+        transform: scale(1.1, 1.1);
+    }
+
+
+    /*Style de base*/
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      }
+
+    header {
+        border: solid 2px black;/*à enlever*/
+        /*margin: 5px;*/
+
+    }
+    nav {
+        border: solid 2px  green;/*à enlever*/
+        margin: 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu {
+        border: solid 2px yellow;/*à enlever*/
+    }
+
+    main    {
+        border: solid  2px black;/*à enlever*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .sectionaccueil {
+        border: solid 2px blue;/*à enlever*/
+        margin: 1em;
+        padding: 1em;
+        text-align: center;
+    }
+    article {
+        border: solid 2px orange;/*à enlever*/
+        margin: 1em;
+        text-align: center ;
+    }
+    .imgpoule{
+        width: 100%;
+        border-radius: 50%;
+        margin: 1.5em;
+    }
+    .list {
+        list-style: none;
+    }
+    .liens{
+        text-decoration: none;
+    }
+
+    footer {
+        border: solid 2px black;/*à enlever*/
+        padding: 1.5em;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer > div {
+        border: solid 1px orangered;/*à enlever*/
+    }
+    footer > div > .list > li {    
+        border: solid 1px teal;/*à enlever*/
+        margin: 0.5em;/*
+        padding: 0.5em;
+        display: inline;
+        justify-content: space-between;
+        align-content: center;*/
+    }
+    
+    h2, h3, legend {
+        font-style: italic;
+        font-size: 2em;
+        font-family: monospace;
+}
+
+
+
+    /*Spécifiques page Events*/
+    .allevents {
+        border: solid 1px magenta;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 1.2em;
+    }
+    .evenements {
+        border: solid 1px yellow;
+        margin: 1em;
+        text-align: center;
+    }
+
+
+    /*Spécifique page contact et dons*/
+    .contactetdons {
+        border: solid 1px teal;/*à enlever*/
+        margin: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    form {
+        width: 40%;
+        border: 1px solid lightgray;
+        border-radius: 2%;
+        background-color: rgba(255, 255, 255, 0.25);
+        padding: 1.2em;
+        margin: 1.2em;
+    }
+    form label {
+        display: block;
+        margin-bottom: 1em;
+        border: solid 1px crimson;/*à enlever*/
+    }
+    form input, form select, form textarea {
+        display: inline-block;
+        margin-bottom: 1em;
+        padding: 1em;
+        width: 80%;
+        border: solid 1px rebeccapurple;/*à enlever*/
+    }
+    .dons {
+        width: 40%;
+        text-align: center;
+        border:  1px solid forestgreen;/*à enlever*/
+        margin: 1em;
+        padding: 1em;
+        border-radius: 2%;
+    }
+}
