@@ -7,3 +7,4 @@ Day2: Brouillon du squelette html des pages de mon site, hors Git, pour tester l
 
 Day3: Nettoyage du brouillon, réflexion papier sur le futur style du site. Initialisation du Git. Ajouts d'élements sur les pages contacts et events, css du style démarré. Ajustements des liens entre les pages.
 
+Day4: Correctifs dans les outils de mise en page, prise en compte du responsive design mobile first (adaptation images, valeurs d'unités responsives...)

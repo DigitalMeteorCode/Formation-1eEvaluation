@@ -9,7 +9,7 @@ header {
 }
 nav {
     border: solid 2px  green;/*à enlever*/
-    margin: 5px;
+    margin: 1em;
     display: flex;
     justify-content: space-between;
 }
@@ -26,70 +26,65 @@ main    {
 }
 .sectionaccueil {
     border: solid 2px blue;/*à enlever*/
-    margin: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 1em;
+    padding: 1em;
     text-align: center;
 }
 article {
     border: solid 2px orange;/*à enlever*/
-    margin: 5px;
+    margin: 1em;
     text-align: center ;
-    max-width: 90%;
-}
-.carte {
-    margin :10px;
-}
-.carte > a {
-    margin: 10px;
-}
-.carte > img {
-    border-radius: 50%;
-    margin: 10px;
 }
 .titres {
     font-size: 2em;
     font-style: italic;
 }
+.imgpoule{
+    width: 80%;
+    border-radius: 50%;
+    margin: 1.5em;
+}
 
 footer {
     border: solid 2px black;/*à enlever*/
-    padding: 10px;
+    padding: 1.5em;
     display: flex;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: space-evenly;
 }
 footer > div {
     border: solid 1px orangered;/*à enlever*/
 }
-footer > div > .list > li {
-    display: inline;
+footer > div > .list > li {    
     border: solid 1px teal;/*à enlever*/
-    margin: 5px;
-    padding: 5px;
+    margin: 1em;
+    padding: 1em;/*
+    display: inline;
     justify-content: space-between;
-    align-content: center;
+    align-content: center;*/
 }
 .list {
     list-style: none;
 }
 
+
 /*Spécifiques page Events*/
-.evenements  {
-    max-width: 25%;
-
+.allevents {
+    border: solid 1px magenta;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
 }
-.allevents   {
-    border: solid 1px teal;
-    /*en attente du live grid layout*/
-
+.evenements {
+    border: solid 1px yellow;
+    margin: 1em;
+    text-align: center;
 }
+
 
 /*Spécifique page contact et dons*/
 .contactetdons {
     border: solid 1px teal;/*à enlever*/
-    margin: 5px;
+    margin: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,26 +93,26 @@ footer > div > .list > li {
 form {
     width: 80%;
     border: 1px solid lightgray;
-    border-radius: 2%;
+    border-radius: 5%;
     background-color: rgba(255, 255, 255, 0.25);
-    padding: 10px;
-    margin: 10px;
+    padding: 1.2em;
+    margin: 1.2em;
 }
 form label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
     border: solid 1px crimson;/*à enlever*/
 }
 legend {
     font-style: italic;
     font-size: 2em;
-    padding: 5px;
+    padding: 0.5em;
     border: solid 1px palevioletred;/*à enlever*/
 }
 form input, form select, form textarea {
     display: inline-block;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 1em;
+    padding: 1em;
     width: 80%;
     border: solid 1px rebeccapurple;/*à enlever*/
 }
@@ -125,7 +120,7 @@ form input, form select, form textarea {
     width: 60%;
     text-align: center;
     border:  1px solid forestgreen;/*à enlever*/
-    margin: 10px;
-    padding: 10px;
+    margin: 1em;
+    padding: 1em;
     border-radius: 2%;
 }
