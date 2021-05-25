@@ -7,4 +7,4 @@ Day2: Brouillon du squelette html des pages de mon site, hors Git, pour tester l
 
 Day3: Nettoyage du brouillon, réflexion papier sur le futur style du site. Initialisation du Git. Ajouts d'élements sur les pages contacts et events, css du style démarré. Ajustements des liens entre les pages.
 
-Day4: Correctifs dans les outils de mise en page, prise en compte du responsive design mobile first (adaptation images, valeurs d'unités responsives...)
+Day4: Correctifs dans les outils de mise en page, prise en compte du responsive design mobile first (adaptation images, valeurs d'unités responsives...). Mise en place de "vrais" liens dans le footer avec usage d'icônes Bootstrap (comme je travaille sur une association fictive, j'ai simplement redirigé vers des liens généraux excepté pour facebook, où une page publique sur le sauvetage de poules existe réellement).
