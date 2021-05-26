@@ -12,40 +12,46 @@
     /*Style de base*/
     body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        background-color: #badc58;
       }
 
-    header {
-        border: solid 2px black;/*à enlever*/
-        /*margin: 5px;*/
-
+    header nav {
+        background-color: #badc58;
     }
     nav {
-        border: solid 2px  green;/*à enlever*/
         margin: 1em;
         display: flex;
         justify-content: space-between;
     }
     .menu {
-        border: solid 2px yellow;/*à enlever*/
+        background-color: rgba(204, 231, 202, 0.5);
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 2em;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
     }
 
     main    {
-        border: solid  2px black;/*à enlever*/
+        background-color: #f6e58d;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
     }
-    .sectionaccueil {
-        border: solid 2px blue;/*à enlever*/
+    .sectionaccueil, .sectionpresentation {
         margin: 1em;
         padding: 1em;
         text-align: center;
     }
     article {
-        border: solid 2px orange;/*à enlever*/
         margin: 1em;
         text-align: center ;
+        background-color: rgba(236, 232, 232, .50);
+        font-size: 1.2em;
+    }
+    .sectionpresentation {
+        font-size: 1.5em;
     }
     .imgpoule{
         width: 100%;
@@ -57,24 +63,18 @@
     }
     .liens{
         text-decoration: none;
+        color: #22a6b3;
+        font-weight: bold;
     }
 
     footer {
-        border: solid 2px black;/*à enlever*/
+        background-color: #6ab04c;
         padding: 1.5em;
         display: flex;
         justify-content: space-evenly;
     }
-    footer > div {
-        border: solid 1px orangered;/*à enlever*/
-    }
-    footer > div > .list > li {    
-        border: solid 1px teal;/*à enlever*/
-        margin: 0.5em;/*
-        padding: 0.5em;
-        display: inline;
-        justify-content: space-between;
-        align-content: center;*/
+    footer > div > .list > li {
+        margin: 0.5em;
     }
     
     h2, h3, legend {
@@ -87,21 +87,19 @@
 
     /*Spécifiques page Events*/
     .allevents {
-        border: solid 1px magenta;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 1.2em;
     }
     .evenements {
-        border: solid 1px yellow;
         margin: 1em;
         text-align: center;
+        background-color: rgba(236, 232, 232, .5);
     }
 
 
     /*Spécifique page contact et dons*/
     .contactetdons {
-        border: solid 1px teal;/*à enlever*/
         margin: 1em;
         display: flex;
         flex-direction: column;
@@ -110,30 +108,27 @@
     }
     form {
         width: 40%;
-        border: 1px solid lightgray;
         border-radius: 2%;
-        background-color: rgba(255, 255, 255, 0.25);
+        background-color: rgba(236, 232, 232, .5);
         padding: 1.2em;
         margin: 1.2em;
     }
     form label {
         display: block;
         margin-bottom: 1em;
-        border: solid 1px crimson;/*à enlever*/
     }
     form input, form select, form textarea {
         display: inline-block;
         margin-bottom: 1em;
         padding: 1em;
         width: 80%;
-        border: solid 1px rebeccapurple;/*à enlever*/
     }
     .dons {
         width: 40%;
         text-align: center;
-        border:  1px solid forestgreen;/*à enlever*/
-        margin: 1em;
-        padding: 1em;
+        margin: 1.2em;
+        padding: 1.2em;
         border-radius: 2%;
+        background-color: rgba(236, 232, 232, .5);
     }
 }
